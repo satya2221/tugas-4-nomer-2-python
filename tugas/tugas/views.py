@@ -3,6 +3,8 @@ from django.http import HttpResponse
 from django.core.files.storage import FileSystemStorage
 from django.template import loader
 
-def upGambar(request):
+def halamanIndex(request):
+    return render(request, "index.html")
 
-    return HttpResponse('hello world')
+def halamanPerkenalan(request):
+    return render(request, 'perkenalan.html')

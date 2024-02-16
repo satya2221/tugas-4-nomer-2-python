@@ -7,4 +7,4 @@ pkgs.mkShell {
 		python311Packages.pip
 		pkgs.pdm
 	];
-}cd 
+}

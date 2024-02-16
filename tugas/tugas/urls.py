@@ -19,6 +19,6 @@ from django.urls import path
 from .import views
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('coba/', views.upGambar)
+    path('', views.halamanIndex),
+    path('perkenalan', views.halamanPerkenalan)
 ]
